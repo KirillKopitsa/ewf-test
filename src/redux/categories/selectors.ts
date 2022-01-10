@@ -6,7 +6,7 @@ const UI = (state: RootState) => state.Categories.UI;
 
 export const selectList = createSelector(
 	[list],
-	(data) => list,
+	(list) => list,
 );
 
 export const selectUI = createSelector(
